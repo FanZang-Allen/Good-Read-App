@@ -1,0 +1,32 @@
+{
+  "Not allowed key name": [
+    {
+      "book_url": "https://www.goodreads.com/book/show/85009.Design_Patterns"
+    }
+  ],
+  "Book": [
+    {
+      "no id in this dict": "not allow",
+      "book_url": "https://www.goodreads.com/book/show/85009.Design_Patterns"
+    }
+  ],
+  "Author": {
+    "Author should be key of list of dict": "not allow",
+    "id": 48622,
+    "author_url": "https://www.goodreads.com/author/show/48622.Erich_Gamma",
+    "author_name": "Erich Gamma",
+    "rating": "4.2",
+    "rating_count": "17200",
+    "review_count": "631",
+    "image_url": "https://images.gr-assets.com/authors/1488278705p5/48622.jpg",
+    "author_books": [
+      "Design Patterns: Elements of Reusable Object-Oriented Software",
+      "Refactoring: Improving the Design of Existing Code",
+      "Contributing to Eclipse: Principles, Patterns, and Plug-Ins",
+      "Objektorientierte Software Entwicklung Am Beispiel Von Et++: Design Muster, Klassenbibliothek, Werkzeuge",
+      "Introduction to Object Orient Design in C++",
+      "Object-Oriented Application Frameworks",
+      "The Future of Software Engineering: Panel Discussions"
+    ]
+  }
+}
