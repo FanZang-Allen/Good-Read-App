@@ -1,0 +1,17 @@
+rect {
+    fill: gray
+}
+
+text {
+  font-size: 1.4em;  
+  font-weight: bold;
+  color: white;
+}
+
+line {
+    color: white;
+}
+
+path {
+    color: white;
+}

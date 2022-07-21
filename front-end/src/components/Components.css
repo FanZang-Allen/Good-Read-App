@@ -1,0 +1,125 @@
+.Header {
+  background-color: #282c34;
+  width: '100%';
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  font-size: calc(20px + 1vmin);
+  margin: calc(5px + 1vmin);
+  color: white;
+}
+
+.ApiButton {
+  display: inline-block;
+  color: #fff;
+  border: none;
+  width: "20%";
+  padding: calc(10px) calc(20px);
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: calc(15px + 1vmin);
+  font-family: inherit;
+}
+
+.ApiButtonHolder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: '100%';
+  height: calc(45px + 1vmin);
+}
+
+.InputHolder {
+  display: flex;
+  align-items: center;
+  width: "100%";
+  margin: 5px;
+}
+
+.Input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: '100%';
+}
+
+
+.VerticalCenterContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: '100%';
+}
+
+.HorizontalCenterContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: '100%';
+}
+
+.GoButton {
+  display: inline-block;
+  color: #fff;
+  border: none;
+  width: calc(50px + 1vmin);
+  height: "100%";
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: calc(12px + 1vmin);
+  font-family: inherit;
+}
+
+.Button {
+  display: inline-block;
+  color: #fff;
+  border: none;
+  width: 150px;
+  height: "100%";
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: calc(12px + 1vmin);
+  font-family: inherit;
+  background-color: blue;
+  margin: 12px;
+}
+
+.QueryArgString {
+  background-color: #282c34;
+  width: '5%';
+  font-size: calc(12px + 1vmin);
+  margin: 5px;
+  color: white;
+}
+
+.InfoContainer{
+  background: #5a5858;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 5px;
+  cursor: pointer;
+  width: "100%";
+  min-height: 150px;
+  max-width: 900px;
+}
+
+.photo{
+  height: calc(200px + 1vmin);
+  width: calc(128px + 1vmin);
+  margin: 10px;
+}
+
+.DetailInfo{
+  background: #5a5858;
+  justify-content: left;
+  width: "100%";
+  margin: 10px;
+  height: "100%";
+  min-width: 400px;
+  max-width: 900px;
+}
+
